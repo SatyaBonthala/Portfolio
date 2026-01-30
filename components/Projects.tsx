@@ -1,6 +1,12 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Fitness Plan Generator',
+      description: 'A personalized AI-powered web application that generates customized fitness plans tailored to individual needs, goals, and circumstances. Features workout schedules, exercise instructions, nutritional guidance, and 4-week progression plans using LLama3-70b via Groq API.',
+      tech: ['Flask', 'Python', 'LangChain', 'Groq API', 'TailwindCSS', 'HTML5', 'LLM'],
+      github: 'https://github.com/SatyaBonthala/fitness_app'
+    },
+    {
       title: 'Scribbly - Notion-like App',
       description: 'A modern note-taking application inspired by Notion with rich text editing, drag-and-drop blocks, JWT authentication, and real-time updates. Features multiple block types and auto-save functionality.',
       tech: ['FastAPI', 'Angular', 'Python', 'TypeScript', 'SQLAlchemy', 'JWT'],

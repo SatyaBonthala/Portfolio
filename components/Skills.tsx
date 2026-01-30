@@ -6,7 +6,7 @@ export default function Skills() {
     },
     {
       category: 'Frameworks & Libraries',
-      skills: ['Next.js', 'React', 'Svelte', 'TailwindCSS']
+      skills: ['Angular']
     },
     {
       category: 'AI & Data Science',
