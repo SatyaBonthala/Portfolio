@@ -22,8 +22,9 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated background grid */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-dark-light to-black">
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#00ff4110_1px,transparent_1px),linear-gradient(to_bottom,#00ff4110_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-dark via-dark-light to-dark">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(56,189,248,0.15),transparent_40%),radial-gradient(circle_at_80%_90%,rgba(14,165,233,0.12),transparent_40%)]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#38bdf815_1px,transparent_1px),linear-gradient(to_bottom,#38bdf815_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">

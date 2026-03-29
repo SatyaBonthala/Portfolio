@@ -10,14 +10,14 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#00ff41',
-          dark: '#00cc33',
-          light: '#33ff66',
+          DEFAULT: '#38bdf8',
+          dark: '#0ea5e9',
+          light: '#7dd3fc',
         },
         dark: {
-          DEFAULT: '#000000',
-          light: '#0a0a0a',
-          lighter: '#1a1a1a',
+          DEFAULT: '#020617',
+          light: '#0b1120',
+          lighter: '#111827',
         }
       },
       animation: {
@@ -25,8 +25,8 @@ const config: Config = {
       },
       keyframes: {
         glow: {
-          '0%': { textShadow: '0 0 5px #00ff41, 0 0 10px #00ff41' },
-          '100%': { textShadow: '0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41' }
+          '0%': { textShadow: '0 0 6px rgba(56, 189, 248, 0.45), 0 0 12px rgba(56, 189, 248, 0.2)' },
+          '100%': { textShadow: '0 0 10px rgba(56, 189, 248, 0.75), 0 0 22px rgba(56, 189, 248, 0.35)' }
         }
       }
     },

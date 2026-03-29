@@ -7,7 +7,7 @@ import Navigation from '@/components/Navigation'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black">
+    <main className="min-h-screen bg-gradient-to-b from-dark via-dark-light to-dark">
       <Navigation />
       <Hero />
       <About />
